@@ -1,6 +1,11 @@
 import "./styles/main.css"
 
 
+import sun from './img/icons/sun.svg';
+import moon from './img/icons/moon.svg';
+import vk from './img/icons/vk.svg';
+import gitHub from './img/icons/gitHub.svg';
+
 function App() {
   return (
     <div className="App">
@@ -10,8 +15,8 @@ function App() {
             <a href="./index.html" className="logo"><strong>Developer</strong> portfolio</a>
 
             <button className="dark-mode-btn">
-              <img src="./img/icons/sun.svg" alt="Light mode" className="dark-mode-btn__icon" />
-              <img src="./img/icons/moon.svg" alt="Dark mode" className="dark-mode-btn__icon" />
+              <img src={sun} alt="Light mode" className="dark-mode-btn__icon" />
+              <img src={moon} alt="Dark mode" className="dark-mode-btn__icon" />
             </button>
 
             <ul className="nav-list">
@@ -47,7 +52,7 @@ function App() {
             </li>
             <li className="content-list__item">
               <h2 className="title-2">Backend</h2>
-              <p>NodeJS, MySQL, PHP, Laravel</p>
+              <p>NodeJS, PHP, Laravel</p>
             </li>
           </ul>
 
@@ -58,11 +63,8 @@ function App() {
         <div className="container">
           <div className="footer__wrapper">
             <ul className="social">
-              <li className="social__item"><a href="#!"><img src="./img/icons/vk.svg" alt="Link" /></a></li>
-              <li className="social__item"><a href="#!"><img src="./img/icons/instagram.svg" alt="Link" /></a></li>
-              <li className="social__item"><a href="#!"><img src="./img/icons/twitter.svg" alt="Link" /></a></li>
-              <li className="social__item"><a href="#!"><img src="./img/icons/gitHub.svg" alt="Link" /></a></li>
-              <li className="social__item"><a href="#!"><img src="./img/icons/linkedIn.svg" alt="Link" /></a></li>
+              <li className="social__item"><a href="#!"><img src={vk} /></a></li>
+              <li className="social__item"><a href="#!"><img src={gitHub} /></a></li>
             </ul>
             <div className="copyright">
               <p>© 2022 frontend-dev.com</p>
