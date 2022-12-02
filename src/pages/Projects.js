@@ -9,11 +9,9 @@ const Projects = () => {
                 <h2 className="title-1">Projects</h2>
                 <ul className="projects">
 
-                    {console.log(projects1[0])}
-
-                    <Project title="Super project" />
-
-
+                    {projects1.map((projects1) => {
+                        return <Project title={projects1.title} img={projects1.img} />
+                    })}
                 </ul>
             </div>
         </main>
