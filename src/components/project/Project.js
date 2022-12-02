@@ -1,6 +1,6 @@
 import project01 from './../../img/projects/01.jpg';
 
-const Project = () => {
+const Project = ({ title }) => {
     return (
         <li className="project">
             <a href="./project-page.html">
@@ -10,7 +10,7 @@ const Project = () => {
                     className="project__img"
                 />
                 <h3 className="project__title">
-                    Gaming streaming portal
+                    {title}
                 </h3>
             </a>
         </li>

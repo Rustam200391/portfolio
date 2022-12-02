@@ -9,11 +9,10 @@ const Projects = () => {
                 <h2 className="title-1">Projects</h2>
                 <ul className="projects">
 
-                    {console.log(projects1)}
+                    {console.log(projects1[0])}
 
-                    <Project />
-                    <Project />
-                    <Project />
+                    <Project title="Super project" />
+
 
                 </ul>
             </div>
