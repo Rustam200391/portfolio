@@ -8,8 +8,8 @@ const Footer = () => {
             <div className="container">
                 <div className="footer__wrapper">
                     <ul className="social">
-                        <li className="social__item"><a href="#!"><img src={vk} /></a></li>
-                        <li className="social__item"><a href="#!"><img src={gitHub} /></a></li>
+                        <li className="social__item"><a href="#!"><img src={vk} alt=" " /></a></li>
+                        <li className="social__item"><a href="#!"><img src={gitHub} alt=" " /></a></li>
                     </ul>
                     <div className="copyright">
                         <p>© 2022 frontend-dev.com</p>

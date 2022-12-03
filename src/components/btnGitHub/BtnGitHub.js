@@ -1,13 +1,13 @@
 import githubIcon from './gitHub-black.svg';
 
 
-const BtnGitHub = () => {
+const BtnGitHub = ({ link }) => {
     return (
-        <a href="#!" className="btn-outline">
+        <a href="{link}" target="_blank" rel="noreferrer" className="btn-outline">
             <img src={githubIcon} alt="" />
             GitHub repo
         </a>
     );
 }
 
-export default BtnGitHub;
+export default BtnGitHub; 
