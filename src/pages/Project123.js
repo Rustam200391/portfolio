@@ -1,9 +1,15 @@
+import { useParams } from "react-router-dom";
+import BtnGitHub from '../components/btnGitHub/BtnGitHub';
+import projects1 from "./../helpers/projectsList"
 import img from './../img/projects/02-big.jpg';
-import BtnGitHub from '../components/btnGitHub/BtnGitHub'
-
 
 
 const Project123 = () => {
+    const { id } = useParams();
+    const project = projects1[id];
+
+    console.log(project);
+
     return (
 
         <main className="section">
