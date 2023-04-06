@@ -1,5 +1,6 @@
+import "bootstrap/dist/css/bootstrap.min.css" ;
 
-const Header = () => {
+function Header() {
     return (
         <header className="header">
             <div className="header__wrapper">
