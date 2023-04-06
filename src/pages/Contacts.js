@@ -7,7 +7,7 @@ const Contacts = () => {
                 <ul className="content-list">
                     <li className="content-list__item">
                         <h2 className="title-2">Location</h2>
-                        <p>Tula, Russia</p>
+                        <p>Baku, Azerbaijan</p>
                     </li>
                     <li className="content-list__item">
                         <h2 className="title-2">Telegram / WhatsApp</h2>
@@ -16,6 +16,10 @@ const Contacts = () => {
                     <li className="content-list__item">
                         <h2 className="title-2">Email</h2>
                         <p><a href="https://mail.google.com/mail/u/0/#inbox">rg20031991@gmail.com</a></p>
+                    </li>
+                    <li className="content-list__item">
+                        <h2 className="title-2">Linkedin</h2>
+                        <p><a href="https://www.linkedin.com/in/rustam-guseinov-476925258/">Rustam (Hrust _dev) Guseinov</a></p>
                     </li>
                 </ul>
 
