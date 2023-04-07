@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css" ;
 
-function Header() {
+export const Header = () => {
     return (
         <header className="header">
             <div className="header__wrapper">
@@ -16,5 +16,3 @@ function Header() {
         </header>
     );
 }
-
-export default Header;

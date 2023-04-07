@@ -1,6 +1,6 @@
-import Header from '../components/header/Header'
+import {Header} from '../components/header/Header'
 
-const Home = () => {
+export const Home = () => {
     return (
         <>
             <Header />
@@ -25,4 +25,3 @@ const Home = () => {
     );
 }
 
-export default Home;
