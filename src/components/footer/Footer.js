@@ -2,7 +2,7 @@ import vk from './../../img/icons/vk.svg';
 import gitHub from './../../img/icons/gitHub.svg';
 
 
-const Footer = () => {
+export const Footer = () => {
     return (
         <footer className="footer">
             <div className="container">
@@ -19,5 +19,3 @@ const Footer = () => {
         </footer>
     );
 }
-
-export default Footer;

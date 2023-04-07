@@ -2,7 +2,7 @@ import Project from '../components/project/Project';
 
 import projects1 from './../helpers/projectsList'
 
-const Projects = () => {
+export const Projects = () => {
     return (
         <main className="section">
             <div className="container">
@@ -23,5 +23,3 @@ const Projects = () => {
         </main>
     );
 }
-
-export default Projects;

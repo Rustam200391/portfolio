@@ -3,10 +3,10 @@ import "./styles/main.css"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css" ;
-import Navbar from "./components/navbar/Navbar";
+import {Navbar} from "./components/navbar/Navbar";
 import {Home} from "./pages/Home";
-import Footer from "./components/footer/Footer";
-import Projects from "./pages/Projects";
+import {Footer} from "./components/footer/Footer";
+import {Projects} from "./pages/Projects";
 import Project from "./pages/Project123";
 import {Contacts} from "./pages/Contacts";
 
