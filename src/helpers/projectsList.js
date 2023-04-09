@@ -33,8 +33,8 @@ const projects1 = [
         gitHubLink: 'https://github.com'
     },
     {
-        title: "Video portal",
-        skills: "VueJS, NodeJS, MongoDB",
+        title: "Landing №1",
+        skills: "React, HTML, CSS, JS",
         img: project03,
         imgBig: project03Big,
         gitHubLink: 'https://github.com'
@@ -47,7 +47,7 @@ const projects1 = [
         gitHubLink: 'https://github.com'
     },
     {
-        title: "Landing",
+        title: "Landing №2",
         skills: "HTML, CSS, JS",
         img: project05,
         imgBig: project05Big,
@@ -55,7 +55,7 @@ const projects1 = [
     },
     {
         title: "Gaming community",
-        skills: "React, PHP, MySQL",
+        skills: "React, PHP, NodeJS",
         img: project06,
         imgBig: project06Big,
         gitHubLink: 'https://github.com'
@@ -63,4 +63,4 @@ const projects1 = [
 
 ];
 
-export default (projects1)
+export default projects1
