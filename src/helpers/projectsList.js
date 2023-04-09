@@ -1,10 +1,10 @@
-import project01 from './../img/projects/01.jpg';
+import project01 from './../img/projects/calculator1.png';
 import project01Big from './../img/projects/01-big.jpg';
 
 import project02 from './../img/projects/widget.png';
 import project02Big from './../img/projects/02-big.jpg';
 
-import project03 from './../img/projects/03.jpg';
+import project03 from './../img/projects/файл для верстки.png';
 import project03Big from './../img/projects/03-big.jpg';
 
 import project04 from './../img/projects/04.jpg';
@@ -19,15 +19,15 @@ import project06Big from './../img/projects/06-big.jpg';
 
 const projects1 = [
     {
-        title: "Gaming streaming portal",
-        skills: "React, NodeJS, MongoDB",
+        title: "CalculateJS",
+        skills: "React",
         img: project01,
         imgBig: project01Big,
         gitHubLink: 'https://github.com'
     },
     {
         title: "Weather widget",
-        skills: "React, PHP, MySql",
+        skills: "React",
         img: project02,
         imgBig: project02Big,
         gitHubLink: 'https://github.com'
@@ -41,7 +41,7 @@ const projects1 = [
     },
     {
         title: "Dating app",
-        skills: "React Native",
+        skills: "React, Typescript",
         img: project04,
         imgBig: project04Big,
         gitHubLink: 'https://github.com'

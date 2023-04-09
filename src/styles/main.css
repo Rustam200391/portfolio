@@ -26,7 +26,7 @@
 	--page-bg: var(--white);
 	--text-color: var(--black);
 	--accent: var(--purple);
-	--title-1: var(--accent);
+	--title-1: var(--purple);
 
 	--project-card-bg: var(--white);
 	--project-card-text: var(--black);
@@ -38,7 +38,7 @@
 	--page-bg: #252526;
 	--text-color: var(--white);
 
-	--title-1: var(--white);
+	--title-1: var(--black);
 
 	--project-card-bg: var(--black);
 	--project-card-text: var(--white);
