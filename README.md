@@ -17,8 +17,8 @@ This is my new homework
   <li>make a blog using the React Bootstrap design system</li>
   <li>Structure:
     <ol>
-      <li>1. Home - list of record headers (in API: /posts)
-2. The page of a separate entry (in the API: /posts/post_number). Under the text of the entry, you need to show a list of comments (In the API: /posts/number\_post/comments)</li>
+      <li>Home - list of record headers (in API: /posts)</li>
+      <li>The page of a separate entry (in the API: /posts/post_number). Under the text of the entry, you need to show a list of comments (In the API: /posts/number\_post/comments)</li>
     </ol>
   </li>
 </ul>
