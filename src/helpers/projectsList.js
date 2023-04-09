@@ -1,8 +1,8 @@
-import project01 from './../img/projects/calculator1.png';
+import project01 from './../img/projects/calculator1 .png';
 
 import project02 from './../img/projects/widget.png';
 
-import project03 from './../img/projects/файл для верстки.png';
+import project03 from './../img/projects/thumbnail.jpg';
 
 import project04 from './../img/projects/04.jpg';
 
