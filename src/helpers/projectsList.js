@@ -16,13 +16,13 @@ const projects1 = [
         title: "CalculateJS",
         skills: "React",
         img: project01,
-        gitHubLink: 'https://github.com'
+        gitHubLink: 'https://github.com/Rustam200391/calculator_functional.git'
     },
     {
         title: "Weather widget",
         skills: "React",
         img: project02,
-        gitHubLink: 'https://github.com'
+        gitHubLink: 'https://github.com/Rustam200391/MigrationJSX.git'
     },
     {
         title: "Landing №1",
