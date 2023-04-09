@@ -15,4 +15,5 @@ This is my new homework
 
 <ul>
   <li>make a blog using the React Bootstrap design system</li>
+  <li>Structure:</li>
 </ul>
