@@ -1,4 +1,4 @@
-import project01 from './../img/projects/calculator1 .png';
+import project01 from './../img/projects/calculator.png';
 
 import project02 from './../img/projects/widget.png';
 
