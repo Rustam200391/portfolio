@@ -19,17 +19,17 @@ export const ArticleList = () => {
     <div>
         <h1>ArticleList</h1>
 
-        <ul>
+        <div>
             {articlelist.map((userId) => {
                 const {id} = userId
                 return (
-                    <li key={id}>
+                    <article key={id}>
                         <title>{title}</title>
-                    </li>
+                    </article>
                 )
                 })}
 
-        </ul>
+        </div>
     </div>
   )
 }
