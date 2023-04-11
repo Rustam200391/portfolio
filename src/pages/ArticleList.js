@@ -20,6 +20,7 @@ export const ArticleList = () => {
 
    return (
       <>
+      {/* Форма,которая принимает заголовок и тело нового сообщения */}
          <div className="add-post-container">
             <form>
                <input type="text" className="form-control" />
