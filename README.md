@@ -1,6 +1,6 @@
 # Getting Started with Create React App!
 
-<iWelcome to my portfolio website
+<i>Welcome to my portfolio website
 
 This project about me, about my knowledge and achievements in the field of development.
 You can also find out my contact information and see the applied knowledge on specific projects.
