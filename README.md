@@ -11,7 +11,7 @@ We write all this while in the folder where we want to import the code.
 
 After importing the files, you need to open the root folder in the terminal and install all the dependencies using the "npm install" command.
 
-<p>This is my new homework
+<p>This is my new homework<
 
 ###Steps:
 
