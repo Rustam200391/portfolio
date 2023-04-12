@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css" ;
 
 
-
 export const ArticleList = () => {
    const [posts, setPosts] = useState([]);
 
