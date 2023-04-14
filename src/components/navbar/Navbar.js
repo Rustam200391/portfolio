@@ -44,6 +44,12 @@ export const Navbar = () => {
                                 Contacts
                             </NavLink>
                         </li>
+                        <li className="nav-list__item">
+                            <NavLink to="/articlelist" className={({ isActive }) => isActive ? activeLink : normalLink
+                            }>
+                                ArticleList
+                            </NavLink>
+                        </li>
                     </ul>
 
                 </div>
