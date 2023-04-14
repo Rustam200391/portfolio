@@ -1,17 +1,16 @@
 import { useState, useEffect } from 'react';
-import "bootstrap/dist/css/bootstrap.min.css" ;
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+import Accordion from 'react-bootstrap/Accordion';
 
 
 export const ArticleList = () => {
    const [posts, setPosts] = useState([]); 
-   // // создаем состояние для хранения
-   // // данных,извлеченных из API и 
-   // // задаем значение по умолчанию в пустой массив
+
 
    useEffect(() => {
-      fetch('https://jsonplaceholder.typicode.com/posts?_limit=5')
+      fetch('https://jsonplaceholder.typicode.com/posts?_limit=10')
          .then((res) => res.json())
-         // преобразовываем then в json с помощью метода json
          .then((data) => {
             console.log(data);
             setPosts(data);
@@ -20,27 +19,31 @@ export const ArticleList = () => {
             console.log(err.message);
          });
    }, []);
-   //в состоянии useEffect  данные / записи извлекаются сразу после загрузки приложения. Запрос на выборку выдает обещание, которое мы можем либо принять, либо отклонить
+
 
 
    return (
       <>
-         <div className="add-post-container">
-            <form>
+         <Form>
+            <Form.Group className='mb-3'>
                <input type="text" className="form-control" />
                <textarea className="form-control" cols="10" rows="8"></textarea>
-               <button type="submit">Add Post</button>
-            </form>
-         </div>
+               <Button variant="success">Add Post</Button>
+            </Form.Group>
+         </Form>
          <div className="posts-container">
             {posts.map((post) => {
                return (
                   <div className="post-card" key={post.id}>
-                     <h2 className="post-title">{post.title}</h2>
-                     <p className="post-body">{post.body}</p>
-                     <div className="button">
-                        <div className="delete-btn">Delete</div>
-                     </div>
+                  <Accordion defaultActiveKey={['0']} alwaysOpen>
+                     <Accordion.Item eventKey="0">
+                     <Accordion.Header>{post.title}</Accordion.Header>
+                        <Accordion.Body>{post.body}</Accordion.Body>
+                        <Button variant="danger">
+                           Delete
+                        </Button>
+                        </Accordion.Item>
+                     </Accordion>
                   </div>
                );
             })}
