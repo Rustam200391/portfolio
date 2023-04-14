@@ -3,30 +3,28 @@ import "bootstrap/dist/css/bootstrap.min.css" ;
 
 
 export const ArticleList = () => {
-   // const [posts, setPosts] = useState([]); 
+   const [posts, setPosts] = useState([]); 
    // // создаем состояние для хранения
    // // данных,извлеченных из API и 
    // // задаем значение по умолчанию в пустой массив
 
-   // useEffect(() => {
-   //    fetch('https://jsonplaceholder.typicode.com/posts?_limit=5')
-   //       .then((res) => res.json())
-   //       // преобразовываем then в json с помощью метода json
-   //       .then((data) => {
-   //          console.log(data);
-   //          setPosts(data);
-   //       })
-   //       .catch((err) => {
-   //          console.log(err.message);
-   //       });
-   // }, []);
+   useEffect(() => {
+      fetch('https://jsonplaceholder.typicode.com/posts?_limit=5')
+         .then((res) => res.json())
+         // преобразовываем then в json с помощью метода json
+         .then((data) => {
+            console.log(data);
+            setPosts(data);
+         })
+         .catch((err) => {
+            console.log(err.message);
+         });
+   }, []);
    //в состоянии useEffect  данные / записи извлекаются сразу после загрузки приложения. Запрос на выборку выдает обещание, которое мы можем либо принять, либо отклонить
 
 
    return (
       <>
-      <h1>Hello world</h1>
-      {/* Форма,которая принимает заголовок и тело нового сообщения
          <div className="add-post-container">
             <form>
                <input type="text" className="form-control" />
@@ -46,7 +44,7 @@ export const ArticleList = () => {
                   </div>
                );
             })}
-         </div> */}
+         </div>
       </>
    );
 };
