@@ -9,6 +9,7 @@ import {Projects} from "./pages/Projects";
 import Project from "./pages/Project123";
 import {Contacts} from "./pages/Contacts";
 import { ArticleList } from "./pages/ArticleList";
+import {Article} from "./pages/Article";
 import {ScrollToTop} from "./utils/scrollToTop"
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/articlelist" element={<ArticleList />}/>
+          <Route path="articlelist/:articleId" element={<Article />}/>
           <Route path="/project/:id" element={<Project />} />
           <Route path="/contacts" element={<Contacts />}/>
         </Routes>

@@ -1,10 +1,7 @@
 import { useState, useEffect } from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import Accordion from 'react-bootstrap/Accordion';
-import { Article } from './Article';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import {Link} from 'react-router-dom';
 
 
 export const ArticleList = () => {
@@ -37,22 +34,11 @@ export const ArticleList = () => {
          <div className="posts-container">
             {posts.map((post) => {
                return (
-                
-                  <div className="post-card" key={post.id}>
-                  <Accordion defaultActiveKey={['0']} alwaysOpen>
-                     <Accordion.Item eventKey="0">
-                   {/* <Router> */}
-                     {/* <Routes>  */}
-                      {/* <Route path="/post.body" element={<Article/>} />  */}
-                     <Accordion.Header>{post.title}</Accordion.Header>
-                     {/* </Routes> */}
-                     {/* </Router> */}
-                        <Accordion.Body>{post.body}</Accordion.Body>
-                        <Button variant="danger">
-                           Delete
-                        </Button>
-                        </Accordion.Item>
-                     </Accordion>
+                  <div key={post.id}>
+                     <Link to={`/articlelist/${post.id}`}>
+                        Link to {post.title}
+                     </Link>
+                     <hr/>
                   </div>
                );
             })}
