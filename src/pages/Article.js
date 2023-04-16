@@ -16,12 +16,12 @@ export const Article = () => {
           });
     }, []);
 
-    const  {articleId} = useParams()
+    const {articleId} = useParams()
     const thisArticle = posts.find(post => post.id === Number(articleId))
 
   return (
     <div>
-      <h2>Article:</h2>
+      <h2 style={{textAlign: "center"}}>Article:</h2>
       <h3>Title:{thisArticle?.title}</h3>
       <h3>Description: {thisArticle?.body}</h3>
       <h3>ID: {thisArticle?.id}</h3>
