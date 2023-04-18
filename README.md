@@ -26,4 +26,3 @@ After importing the files, you need to open the root folder in the terminal and 
 </ul>
 
 <i>read this article</i></br>
-<b>https://stackoverflow.com/questions/49582891/proper-way-to-fix-potential-security-vulnerability-in-a-dependency-defined-in-pa</b>
