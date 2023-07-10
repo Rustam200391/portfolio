@@ -1,6 +1,11 @@
 # Portfolio site with Create React App!
 This project was created for my presentation
 
+If you want to run a project: 
+1. You need to clone the project by downloading the import link and running it in the terminal after git clone ...
+2. After cloning to the specified folder, install all dependencies in this folder with the npm install command
+3. Launch the project while in the project folder with the npm start command
+
 <i>Welcome to my portfolio website</i>
 
 <b>This project about me, about my knowledge and achievements in the field of development.</b>
