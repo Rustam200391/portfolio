@@ -1,5 +1,5 @@
 # Portfolio site with Create React App!
-This 
+This project 
 <i>Welcome to my portfolio website</i>
 
 <b>This project about me, about my knowledge and achievements in the field of development.</b>
