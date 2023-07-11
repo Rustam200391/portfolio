@@ -6,7 +6,7 @@ If you want to run a project:
 2. After cloning to the specified folder, install all dependencies in this folder with the npm install command
 3. Launch the project while in the project folder with the npm start command
 
-<Welcome to my portfolio website
+Welcome to my portfolio website
 
 <b>This project about me, about my knowledge and achievements in the field of development.</b>
 You can also find out my contact information and see the applied knowledge on specific projects.
